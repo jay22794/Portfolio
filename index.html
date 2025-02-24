@@ -1,157 +1,141 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1894.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mobile App Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 28px;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .project {
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            background: #f8f8f8;
+            margin: 15px 0;
+            text-align: left;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        a {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #764ba2;
+        }
+        footer {
+            margin-top: 20px;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #764ba2;
+        }
+    </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Portfolio - Mobile App Developer&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f4f4f4;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #333;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #667eea, #764ba2);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 28px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>max-width: 900px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 40px auto;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: white;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 30px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.project {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.3s ease;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #f8f8f8;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 15px 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: left;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.project:hover {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-5px);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>a {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #667eea;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transition: color 0.3s;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>a:hover {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #764ba2;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>footer {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #333;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 15px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 14px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.btn {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: inline-block;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #667eea;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 6px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transition: background 0.3s;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.btn:hover {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #764ba2;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Mobile App Developer Portfolio&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Expert in Kotlin &amp; Java | Full-Cycle App Development&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;Projects&lt;/h2&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="project"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;The WOW Healing&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;A self-development app designed to help users achieve personal growth using guided meditations, goal tracking, and daily affirmations.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Led UI/UX design, development, testing, and deployment. Ensured a seamless experience with a structured UI and optimized backend performance.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Kotlin, Firebase, Android Jetpack, MVVM Architecture&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a class="btn" href="https://play.google.com/store/apps/details?id=com.wowhealing.app" target="_blank"&gt;View on Play Store&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="project"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;GardenStocks&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;An online marketplace connecting farmers and buyers for local produce, plants, and seeds. Features include real-time inventory updates and secure transactions.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designed UI, developed backend integration, and ensured a smooth user experience.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Java, Retrofit, Google Maps API, SQLite&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="project"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;TalkMeUp&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;A motivational app providing on-demand encouragement through curated messages and affirmations.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designed an intuitive UI, developed the full stack, and implemented push notifications.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Java, Firebase, SQLite, Push Notifications&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a class="btn" href="https://play.google.com/store/apps/details?id=com.talkmeup" target="_blank"&gt;View on Play Store&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="project"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Remmie&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;A health-tech app designed to empower families with easy access to health records, enabling remote symptom tracking and medical history management.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Led design, development, and QA, ensuring security and user-friendly navigation.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Kotlin, Firebase, Secure API Integration, SQLite&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a class="btn" href="https://play.google.com/store/apps/details?id=com.remmie.health" target="_blank"&gt;View on Play Store&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="project"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Leverano/Scelgo Salento&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;The official app for the City of Leverano and Scelgo Salento, providing information on municipal activities for residents and tourists.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt; Designed, developed, and tested the entire application, integrating real-time municipal updates and location-based services.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Java, Firebase, Google Maps API, SQLite&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a class="btn" href="https://play.google.com/store/apps/details?id=com.leverano" target="_blank"&gt;View on Play Store&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a class="btn" href="https://play.google.com/store/apps/details?id=it.ee.salento" target="_blank"&gt;View on Play Store&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="project"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Other Notable Projects&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;strong&gt;Book My Rent:&lt;/strong&gt; A rental platform for finding furnished homes. (Kotlin, Firebase, Google Maps API)&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;strong&gt;Digital Income:&lt;/strong&gt; A fintech platform for investment insights. (Kotlin, Secure API Integration, Firebase)&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;strong&gt;OJAS:&lt;/strong&gt; A jewelry rental service for special occasions. (Kotlin, Firebase, Payment Gateway)&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;strong&gt;SADPL Logistics:&lt;/strong&gt; A logistics management system for tankers and route assignments. (Kotlin, Maps API, Firebase)&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;strong&gt;Flash Light - Gallery Vault:&lt;/strong&gt; A secure vault for private photos/videos disguised as a flashlight app. (Kotlin, Encryption, Secure Storage)&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Contact: your.email@example.com | &lt;a href="#"&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+    <header>
+        <h1>Mobile App Developer Portfolio</h1>
+        <p>Expert in Kotlin & Java | Full-Cycle App Development</p>
+    </header>
+    <div class="container">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3>The WOW Healing</h3>
+            <p>A self-development app designed to help users achieve personal growth using guided meditations, goal tracking, and daily affirmations.</p>
+            <p><strong>Role:</strong> Led UI/UX design, development, testing, and deployment. Ensured a seamless experience with a structured UI and optimized backend performance.</p>
+            <p><strong>Technologies:</strong> Kotlin, Firebase, Android Jetpack, MVVM Architecture</p>
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.wowhealing.app" target="_blank">View on Play Store</a>
+        </div>
+        
+        <div class="project">
+            <h3>GardenStocks</h3>
+            <p>An online marketplace connecting farmers and buyers for local produce, plants, and seeds. Features include real-time inventory updates and secure transactions.</p>
+            <p><strong>Role:</strong> Designed UI, developed backend integration, and ensured a smooth user experience.</p>
+            <p><strong>Technologies:</strong> Java, Retrofit, Google Maps API, SQLite</p>
+        </div>
+        
+        <div class="project">
+            <h3>TalkMeUp</h3>
+            <p>A motivational app providing on-demand encouragement through curated messages and affirmations.</p>
+            <p><strong>Role:</strong> Designed an intuitive UI, developed the full stack, and implemented push notifications.</p>
+            <p><strong>Technologies:</strong> Java, Firebase, SQLite, Push Notifications</p>
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.talkmeup" target="_blank">View on Play Store</a>
+        </div>
+        
+        <div class="project">
+            <h3>Remmie</h3>
+            <p>A health-tech app designed to empower families with easy access to health records, enabling remote symptom tracking and medical history management.</p>
+            <p><strong>Role:</strong> Led design, development, and QA, ensuring security and user-friendly navigation.</p>
+            <p><strong>Technologies:</strong> Kotlin, Firebase, Secure API Integration, SQLite</p>
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.remmie.health" target="_blank">View on Play Store</a>
+        </div>
+        
+        <div class="project">
+            <h3>Leverano/Scelgo Salento</h3>
+            <p>The official app for the City of Leverano and Scelgo Salento, providing information on municipal activities for residents and tourists.</p>
+            <p><strong>Role:</strong> Designed, developed, and tested the entire application, integrating real-time municipal updates and location-based services.</p>
+            <p><strong>Technologies:</strong> Java, Firebase, Google Maps API, SQLite</p>
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.leverano" target="_blank">View on Play Store</a>
+            <a class="btn" href="https://play.google.com/store/apps/details?id=it.ee.salento" target="_blank">View on Play Store</a>
+        </div>
+        
+        <div class="project">
+            <h3>Other Notable Projects</h3>
+            <ul>
+                <li><strong>Book My Rent:</strong> A rental platform for finding furnished homes. (Kotlin, Firebase, Google Maps API)</li>
+                <li><strong>Digital Income:</strong> A fintech platform for investment insights. (Kotlin, Secure API Integration, Firebase)</li>
+                <li><strong>OJAS:</strong> A jewelry rental service for special occasions. (Kotlin, Firebase, Payment Gateway)</li>
+                <li><strong>SADPL Logistics:</strong> A logistics management system for tankers and route assignments. (Kotlin, Maps API, Firebase)</li>
+                <li><strong>Flash Light - Gallery Vault:</strong> A secure vault for private photos/videos disguised as a flashlight app. (Kotlin, Encryption, Secure Storage)</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Contact: your.email@example.com | <a href="#">LinkedIn</a></p>
+    </footer>
 </body>
 </html>
